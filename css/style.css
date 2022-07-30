@@ -19,6 +19,119 @@ html, body {
 
 body {
   color: var(--primary);
+  background-color: var(--white);
   font-size: 15px;
   font-family: 'League Spartan', sans-serif;
+  background-image: url('../images/bg-pattern-top-mobile.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 80px 20px;
+  flex-direction: column;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.overview__section {
+  flex-direction: column;
+}
+
+.overview {
+  flex-direction: column;
+}
+
+.overview__title {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 0 50px;
+  padding-bottom: 20px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  line-height: 1;
+}
+
+.overview__description {
+  color: var(--magenta-gray-dark);
+  font-size: 15px;
+  font-weight: 300;
+  padding: 0 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.rating {
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+
+.rating__card {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--magenta-gray-light);
+  padding: 20px 0;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.rating__card-star {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-image: url(../images/icon-star.svg);
+  background-repeat: no-repeat;
+}
+
+.rating__card-description {
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.testimonials {
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.testimonials__card {
+  background-color: var(--primary);
+  color: var(--white);
+  margin-bottom: 15px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+/* .testimonials__card-header {
+  
+} */
+
+.testimonials__card-profile-picture {
+  width: 35px;
+  height: 35px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.testimonials__card-profile {
+  padding-left: 20px;
+}
+
+.testimonials__card-profile__name {
+  font-weight: 700;
+}
+
+.testimonials__card-profile__designation {
+  font-weight: 500;
+  color: var(--pink);
+}
+.testimonials__card-body {
+  padding-top: 20px;
+  font-weight: 300;
+  line-height: 1.5;
 }
