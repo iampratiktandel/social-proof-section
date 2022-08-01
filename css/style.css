@@ -190,8 +190,17 @@ body {
   .rating__card-description {
     padding-right: 30px;
   }
+
   .rating__card {
     flex-direction: row;
+  }
+
+  .rating__card:nth-child(1) {
+    transform: translateX(-120px);
+  }
+
+  .rating__card:nth-child(2) {
+    transform: translateX(-60px);
   }
 
   .testimonials {
